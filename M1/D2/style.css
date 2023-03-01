@@ -1,0 +1,84 @@
+
+
+*{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+body{
+    margin: 0;
+}
+main{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+header img{
+    display: block;
+    margin: 15px auto 15px auto;
+    max-height: 50px;
+    text-align: center;
+}
+.sub_header{
+    background-color: rgb(255, 255, 226);
+    padding: 1px 0;
+    border-top: solid 2px  rgb(255, 233, 161);
+    text-align: center;
+}
+.sub_header > p{
+    text-align: center;
+    color: rgb(20, 124, 124);
+    font-size: 0.7rem;
+    font-weight: 200;
+    vertical-align: center;
+    margin: 10px 0;
+
+}
+.title{
+    text-align: center;
+    margin-top: 45px;
+}
+.sub_title{
+    margin-top: 25px;
+    font-weight: 300;
+}
+.main_img{
+    border-radius: 8px;
+    width: 100%;
+}
+.pic_name{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(182, 182, 182);
+}
+.color_box{
+    border-left: solid 2px  rgb(255, 215, 82);
+    padding-left: 10px;
+}
+.color_box h4{
+    margin: 5px 0;
+}
+.color_box > h4{
+    color: rgb(176, 111, 0);
+}
+a{
+    color: rgb(21, 149, 149);
+}
+.second_title{
+    margin-top: 40px;
+}
+hr{
+    border: solid 1px rgb(21, 149, 149);
+}
+ul li{
+    margin: 7px 0;
+    font-weight: 200;
+}
+ol{
+    margin-top: 40px;
+}
+ol p{
+    font-weight: 200;
+}
+.end_text{
+    font-weight: 200;
+}
