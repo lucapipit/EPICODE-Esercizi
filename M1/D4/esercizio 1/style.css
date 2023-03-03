@@ -1,0 +1,198 @@
+/*caricamento immagini*/
+#img1{background-image: url(assets-6/assets/img_1.jpg);}
+#img2{background-image: url(assets-6/assets/img_2.jpg);}
+#img3{background-image: url(assets-6/assets/img_3.jpg);}
+#img4{background-image: url(assets-6/assets/img_4.jpg);}
+#img5{background-image: url(assets-6/assets/img_9.png);}
+#img6{background-image: url(assets-6/assets/img_10.png);}
+
+#img15{background-image: url(assets-6/assets/img_15.jpg);}
+#img16{background-image: url(assets-6/assets/img_16.jpg);}
+#img17{background-image: url(assets-6/assets/img_17.jpg);}
+#img18{background-image: url(assets-6/assets/img_18.jpg);}
+
+#img19{background-image: url(assets-6/assets/img_19.jpg);}
+#img20{background-image: url(assets-6/assets/img_20.jpg);}
+#img21{background-image: url(assets-6/assets/img_21.jpg);}
+#img22{background-image: url(assets-6/assets/img_22.jpg);}
+
+#img11{background-image: url(assets-6/assets/img_11.jpg);}
+#img12{background-image: url(assets-6/assets/img_12.jpg);}
+#img13{background-image: url(assets-6/assets/img_13.jpg);}
+#img14{background-image: url(assets-6/assets/img_14.jpg);}
+
+#img24{background-image: url(assets-6/assets/img_24.jpg);}
+#img25{background-image: url(assets-6/assets/img_25.jpg);}
+#img26{background-image: url(assets-6/assets/img_26.jpg);}
+#img27{background-image: url(assets-6/assets/img_27.jpg);}
+
+/*generali*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eaeded;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    height: 30px;
+    padding: 5px;
+}
+main{
+    margin: 10px auto;
+    width: 70%;
+}
+
+.blueLink{
+    color: rgb(1, 116, 124);
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.txt-left{
+    text-align: left;
+}
+.mcustom{
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+.mcustom2{
+    margin: 12px 0 8px 0;
+}
+.h6custom{
+    font-size: 0.6rem;
+    text-align: left;
+    margin:3px 0 0 8px;
+}
+.bcg-dark{
+    background-color: #222f3e;
+}
+.bcg-grey{
+    background-color: #354758;
+}
+
+/*Blocco Top*/
+.logo{
+    height: 100%;
+    max-height: 60px;
+}
+.nav ul{
+    margin: 0 20px;
+    padding: 5px 0;
+}
+.nav li{
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+.shopButton{
+    background-color: #f56600;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin: 20px 0;
+    font-size: 0.8rem;
+}
+main .first_box{
+    background-image: url(assets-6/assets/bg-image.png);
+    background-position: center;
+    background-size: contain;
+    height: 70px;
+    text-align: center;
+    padding: 40px 0 10px 0;
+    margin: 15px 0;
+    color: #fff;
+}
+.first_box > h5{
+    margin-top: 10px;
+}
+
+
+/*Blocco immagini*/
+.shop_box{
+    display: block;
+}
+.shop_box h4{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+}
+.row_top > h4{
+    margin: 0 0 10px 20px;
+}
+.row_top {
+    background-color: rgb(255, 255, 255);
+    gap: 0;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+.row_middle{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.row_bottom{
+    padding: 5px 0;
+    text-align: center;
+    display: block;
+}
+.col_small {    
+    display:inline-block;
+    width: 22%;
+    aspect-ratio: 4 / 5;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 1%;
+    box-shadow: 6px 6px 8px #e0e0e0;
+}
+.col_categories{
+    width: 24%;
+    background-size: cover;
+    background-color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    display: inline-block;
+    gap: 0;
+}
+.grid4{
+    display: inline-block;
+    width: 45%;
+    margin: 5px 0;
+}
+.product{
+    aspect-ratio: 5 / 4;
+    background-size: cover;
+    background-position: center;
+}
+.col_large {
+    display: inline-block;
+    width: 100%;
+    aspect-ratio: 2880 / 878;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+
+/*Blocco Bottom*/
+.footer{
+    height: 40px;
+    padding: 35px 0;
+    text-align: center;
+}
+.backtotop{
+    text-align: center;
+    padding: 10px 0;
+}
+
