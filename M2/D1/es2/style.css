@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    margin: 0 5px;
+}
+.navbar{
+    background: linear-gradient(90deg, #12142f, #192155);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    position: fixed;
+}
+.navbar > img{
+    height: 60px;
+}
+.navbar > div > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    
+}
+.navbar > div > ul > li{
+    color: #fff;
+    list-style: none;
+}
+.navbar > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar > div > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+}
+.navbar > div > div > img{
+    height: 20px;
+    border-radius: 10px;
+}
+.navbar > div > div > i{
+    color: #fff;
+}
+
+/*Buttons*/
+.candidati{
+    height: 40px;
+    width: 140px;
+    color: #192155;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: .8rem;
+    font-weight: 700;
+    border: solid 1px aqua;
+}
+.candidati:hover{
+    background-color: rgb(0, 209, 209);
+    border: solid 1px rgb(0, 209, 209);
+}
+.type2{
+    background-color:#cb2376;
+    border: solid 1px #cb2376;
+    color: #fff;
+}
+.type2:hover{
+    background-color: #8d1853;
+    border: solid 1px #8d1853;
+}
+
+/*Second Container*/
+.second_container{
+    background: linear-gradient(90deg, #12142f, #192155);
+    min-height: 700px;
+    text-align: center;
+    padding: 140px 70px 70px 70px;
+
+}
+.second_container > h1, h4{
+    color: #fff;
+    margin: 15px 0;
+}
+.second_container > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.second_container .card_steps{
+    background: linear-gradient(to right, #2d27df 0%,#cb2376 100%);  
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.second_container .card_bcg{
+    height: 170px;
+    width: 270px;
+    background: linear-gradient(90deg, #12142f, #192155);
+    color: #fff;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card_bcg > div{
+    display: flex;
+    align-items: center;
+}
+.card_bcg > div > span:nth-child(2){
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*Third Container*/
+.third_container{
+    background: linear-gradient(45deg, #12142f, #192155);
+    min-height: 700px;
+    text-align: center;
+    padding: 140px 70px 70px 70px;
+
+}
+.third_container > h1, h4{
+    color: #fff;
+    margin: 15px 0;
+}
+.third_container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.third_container .card_courses{
+    height: 270px;
+    width: 370px;
+    background-color: #fff;
+    color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 10px;
+    align-items: center;
+}
+.card_courses > p:last-child{
+    color: #cb2376;
+    font-weight: bold;
+}
