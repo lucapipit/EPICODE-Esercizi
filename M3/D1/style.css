@@ -1,0 +1,59 @@
+.jumbotron h1{
+    color: red;
+}
+.jumbotron p.lead > a{
+    color: rgb(100, 166, 0);
+}
+
+nav.nav span{
+    color: rgb(255, 0, 255);
+}
+
+/* esercizio 4 */
+main.container div.blog-post:first-of-type{
+    background-color: rgb(210, 210, 210);
+}
+/* div[class$="blog-main"] div:first-of-type{
+    background-color: aquamarine;
+} */
+
+/* esercizio 5 */
+main.container div.blog-post:first-of-type > hr{
+    border-color:red;
+}
+
+/* esercizio 6 */
+nav.nav span:nth-child(even){
+    color: rgb(0, 187, 255);
+}
+
+/* esercizio 7 */
+aside.blog-sidebar ol:first-of-type{
+    background-color: rgb(255, 151, 151);
+}
+
+/* esercizio 8 */
+main.container div.blog-main > div:nth-of-type(2){
+    background-color: green;
+}
+
+/* esercizio 9 */
+main.container div.blog-main > div:nth-of-type(3) li:nth-of-type(2){
+    color: purple;
+}
+
+/* esercizion 10 */
+footer+a{
+ color: red;
+}
+
+/* esercizio 11 */
+main.container div.blog-main > nav a:last-child{
+    color:rgb(255, 0, 255);
+}
+
+/* esercizio 12 */
+footer a:last-child{
+    color: green;
+}
+
