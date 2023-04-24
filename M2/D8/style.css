@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2{
+    color: white;
+    margin: 25px;
+}
+body{
+    background: linear-gradient(to top, rgb(255, 179, 0), rgb(142, 0, 28));
+}
+main{
+    height: 100vh;
+}
+input{
+    text-align: left;
+    padding: 5px 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 1px rgb(203, 203, 203);
+    margin: 20px;
+}
+button{
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 185, 0);
+    background-color: green;
+    color: white;
+    margin: 10px;
+}
+ul > li{
+    color: white;
+    margin: px;
+}
+#searchResult{
+    width: 500px;
+    height: 200px;
+}
+#integrityMessage{
+    color: #fff;
+    background-color: red;
+    margin: 20px 20%;
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    display: none;
+}
