@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    font-weight: 500;
+}
+.header{
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+}
+.main{
+    display: flex;
+    height: 60%;
+    flex-direction: row;
+    align-items: stretch;
+}
+.blocco1{
+    background-color: rgb(255, 212, 131);
+    width: 33.33%;
+    display: flex;
+    align-items: baseline;
+}
+.blocco2{
+    background-color: rgb(255, 174, 0);
+    width: 33.33%;
+    display: flex;
+    align-items: baseline;
+}
+.blocco3{
+    background-color: rgb(201, 130, 0);
+    width: 33.33%;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer{
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: baseline;
+}

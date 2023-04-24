@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: #fff;
+    padding: 50px auto;
+}
+.card{
+    border-radius: 30px;
+    position: relative;
+    display: block;
+    width: 250px;
+    margin: 50px 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    opacity: 0.5;
+}
+img{
+    display: block;
+    position: absolute;
+    border-radius: 35px;
+    padding: 1%;
+    width: 100%;
+    z-index: 2;
+}
+.tasto{
+    color: #202020;
+    position: absolute;
+    top: 10px;
+    margin: 10px;
+    z-index: 1;
+}
+.salva{
+    right: 10px;
+    width: 90px;
+    background-color: rgb(241, 0, 0);
+    padding: 17px 0;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 22px;
+}
+.impostazioni{
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    top: 380px;
+    right: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.download{
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    top: 380px;
+    right: 60px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.youtube{
+    width: 105px;
+    background-color: rgb(255, 255, 255);
+    top: 380px;
+    right: 110px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.fa-solid{
+    font-size: 22px;
+}
+.card:hover{
+    background-color: black;
+    opacity: 0.1;
+}
+.img:hover{
+    z-index: 0;
+    transition: ease-in-out;
+}
+.tasto:hover{
+    z-index: 3;
+}
